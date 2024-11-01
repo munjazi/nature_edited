@@ -15,7 +15,7 @@
     <category field="generic-base"/>
     <issn>0028-0836</issn>
     <eissn>1476-4687</eissn>
-    <updated>2024-11-01T09:50:52+00:00</updated>
+    <updated>2024-11-01T09:54:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="title">
@@ -127,8 +127,8 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout vertical-align="baseline" delimiter="," prefix="[" suffix="]">
-      <text variable="citation-number" vertical-align="baseline"/>
+    <layout vertical-align="baseline" delimiter=",">
+      <text variable="citation-number" vertical-align="baseline" prefix="[" suffix="]"/>
     </layout>
   </citation>
   <bibliography et-al-min="6" et-al-use-first="1" second-field-align="flush" entry-spacing="0" line-spacing="2">
